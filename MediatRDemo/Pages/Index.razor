@@ -1,0 +1,21 @@
+﻿@page "/"
+@using DemoLibrary.Queries
+
+
+@inject MediatR.IMediator _mediator
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+<ul>
+    @foreach (var p in people)
+    {
+        <li>@p.LastName @p.FirstNane</li>
+    }
+</ul>
+@code {
+    List<DemoLibrary.Models.PersonModel> people;
+    protected override async Task OnInitializedAsync()
+    {
+        people = await _mediator.Send(new GetPersonListQuery());
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jf9+RAtaocFjkU0UvPidHpynkX/B1JKk0BSyvHWZJQEB0ZoXyFEbFAPrQorpI8Ksb6dHWCpptc5Jm/QaAPQjtw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\MediatRDemo\\DemoLibrary\\DemoLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
